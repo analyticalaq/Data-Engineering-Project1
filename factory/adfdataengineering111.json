@@ -1,0 +1,9 @@
+{
+	"name": "adfdataengineering111",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0c233570-6f3e-4f89-9cee-fbd8e955525a",
+		"tenantId": "6bd2a213-0c6f-4c71-ac1e-0543801451ef"
+	}
+}

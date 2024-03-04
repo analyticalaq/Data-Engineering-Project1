@@ -1,0 +1,23 @@
+{
+	"name": "SqlServeronpremiss",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=DESKTOP-04ILNFG\\SQLEXPRESS;Initial Catalog=AdventureWorksLT2017;User ID=mrrk",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "selfhostedintegation",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
